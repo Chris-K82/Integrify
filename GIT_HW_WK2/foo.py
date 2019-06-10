@@ -1,3 +1,8 @@
+'''
+        @Author Chris
+        Date: 10 JUN 19
+        Version: 0.1.0
+'''
 import random
 import numpy as np 
 import names
