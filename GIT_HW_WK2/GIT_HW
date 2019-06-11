@@ -1,0 +1,71 @@
+List of commands:
+
+Linux: cd, ls, rm -r -f, mkdir, sudo apt..., whereis <fileName>, touch <fileName.someExt>, pip install <appName>
+
+GIT: git init, 
+     git clone <https://someURL>, 
+     git config --Global <user.name, user.email,
+     commit.template <path to message.txt>, core.excludesfile <path to .gitignore>, 
+     help.autocorrect, core.autocrlf>
+     git add <fileName>, *
+     git commit -m "Commit message"
+     git remote add origin <https://someURL>
+     git push origin <branchName>
+     git stash
+     git checkout <branchName>, -b "projectName"
+     git branch
+     git pull
+     git merge
+     git tag <tagString>
+     git push origin --tags
+     git log --pretty=oneline, --author=<username>
+     git status -s, -b
+     git blame <fileName>
+     
+
+
+
+commit e58dc58bb89e94988b0f93eebbb46ae0d9024fe4 (HEAD -> master, origin/master)
+Author: Chris-K82 <christopher.kraus@integrify.io>
+Date:   Mon Jun 10 12:54:37 2019 +0300
+
+    Added license tag.
+
+commit ba23df223faba293571884f43b51d06bdcbbb856 (tag: 0.1.0)
+Author: Chris-K82 <christopher.kraus@integrify.io>
+Date:   Mon Jun 10 12:06:06 2019 +0300
+
+    updates
+
+commit 71dee638c767b4a421eaba8d3bc5be6c0b1dcbfb
+Author: Chris-K82 <christopher.kraus@integrify.io>
+Date:   Mon Jun 10 12:00:19 2019 +0300
+
+    First Integrify GIT project
+    
+    Two new file updates for foo.py and bar.py. foo.py generates a random list of random genders for 100 names. bar.py replaces items in a list based on their index value
+    with an input value.
+
+commit 6b33b44473984df1d3b2c4dc8d42137f2466292d
+Author: Chris-K82 <christopher.kraus@integrify.io>
+Date:   Mon Jun 10 11:09:54 2019 +0300
+
+    Global .gitignore file
+
+commit c62f1e7798a5dfa6e3cbf6bdc5fb7ca4bcc21799
+Author: Chris-K82 <christopher.kraus@integrify.io>
+Date:   Mon Jun 10 10:35:54 2019 +0300
+
+    Global gitignore
+
+commit 548aecf4f9284610a0d1d1ee06550ae8e88f9f37
+Author: Chris-K82 <christopher.kraus@integrify.io>
+Date:   Mon Jun 10 10:15:42 2019 +0300
+
+    Introduces three new files: foo.py, bar.py, gitmessage.txt
+    
+    This is my first locally produced and then pushed git project with Integrify Machine Learning.
+
+commit 95478f709206bfb27102298392064d49616adacb (tag: 0.2.0)
+Author: Chris-K82 <christopher.kraus@integrify.io>
+Date:   Mon Jun 10 09:40:43 2019 +0300
